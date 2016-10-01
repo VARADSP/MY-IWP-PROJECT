@@ -1,0 +1,30 @@
+<html>
+<head><title>Search</title>
+</head>
+
+
+
+<body>
+<h2>Search for an Artist</h2>
+<input type="text" id="formInput" value="Search for an Artist"> </input> <br>
+<button id="search" >Submit</button>
+<p><textarea id="response" rows="0" cols="45" wrap></textarea></p>
+<p id="valueDisplay"> </p>
+<h2>Or... Look At All the Music</h2>
+
+<button id="b1" type="button">Get All Albums</button>
+<button id="b2" type="button">Get All Albums By Artist</button>
+<button id="b3" type="button">Get All By Category</button>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Album Title</th>
+            <th>Category</th>
+            <th>Artist</th>
+            <th>Tracks</th>
+        </tr>
+    </thead>
+    <tbody id="albums"></tbody>
+</table>
+</body>
+</html>

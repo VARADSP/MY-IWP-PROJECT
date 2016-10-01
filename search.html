@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="p1">varad sumedh</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var str = document.getElementById("p1").innerHTML;
+    var x=prompt("Enter the candidate name");
+    var pos = str.indexOf(x);
+    document.getElementById("demo").innerHTML = pos;
+}
+</script>
+
+</body>
+</html>
